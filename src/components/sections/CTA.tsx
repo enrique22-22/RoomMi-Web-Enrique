@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Reveal } from "./Reveal";
+import { Reveal } from "@/components/ui/Reveal";
 import { site } from "@/data/content";
 
 export function CTA() {

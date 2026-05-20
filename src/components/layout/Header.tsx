@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { LogoMark } from "./Icons";
+import { LogoMark } from "@/components/ui/Icons";
 import { nav, site } from "@/data/content";
 
 export function Header() {

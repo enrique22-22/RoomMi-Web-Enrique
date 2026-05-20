@@ -1,5 +1,5 @@
-import { Reveal } from "./Reveal";
-import { FeatureIcon } from "./Icons";
+import { Reveal } from "@/components/ui/Reveal";
+import { FeatureIcon } from "@/components/ui/Icons";
 import { problems } from "@/data/content";
 
 export function Problem() {

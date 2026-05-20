@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { DM_Sans, Outfit } from "next/font/google";
-import "./globals.css";
+import "@/styles/globals.css";
 import { site } from "@/data/content";
 
 const outfit = Outfit({
@@ -49,7 +49,7 @@ export const metadata: Metadata = {
     follow: true,
   },
   icons: {
-    icon: "/icon.svg",
+    icon: "/assets/icon.svg",
   },
 };
 

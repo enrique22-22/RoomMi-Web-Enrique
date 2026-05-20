@@ -1,4 +1,4 @@
-import { Reveal } from "./Reveal";
+import { Reveal } from "@/components/ui/Reveal";
 import { sampleRooms } from "@/data/content";
 
 export function RoomPreview() {
