@@ -18,7 +18,13 @@ npm run build
 npm start
 ```
 
-Despliega en [Vercel](https://vercel.com) para obtener un enlace público.
+## Publicar en GitHub Pages
+
+1. En GitHub: **Settings** → **Pages** → **Build and deployment** → Source: **GitHub Actions**.
+2. Sube los cambios a `main` (el workflow despliega solo).
+3. URL pública: **https://enrique22-22.github.io/RoomMi-Web-Enrique/**
+
+También puedes usar [Vercel](https://vercel.com) si lo prefieres.
 
 ## Contenido
 

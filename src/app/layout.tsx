@@ -13,7 +13,14 @@ const dmSans = DM_Sans({
   variable: "--font-dm",
 });
 
+const metadataBase = new URL(
+  process.env.GITHUB_PAGES === "true"
+    ? "https://enrique22-22.github.io/RoomMi-Web-Enrique"
+    : "http://localhost:3000"
+);
+
 export const metadata: Metadata = {
+  metadataBase,
   title: `${site.name} | Encuentra habitación y compañeros de confianza`,
   description: site.description,
   keywords: [

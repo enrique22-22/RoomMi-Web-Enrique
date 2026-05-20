@@ -3,7 +3,7 @@ export const site = {
   tagline: "Tu habitación, tu gente, tu confianza",
   description:
     "RoomMi es la aplicación para buscar y compartir habitaciones con seguridad: publica o encuentra alojamiento, chatea con otros usuarios y valora la convivencia. Ideal para estudiantes y jóvenes profesionales.",
-  url: "https://roommi.app",
+  url: "https://enrique22-22.github.io/RoomMi-Web-Enrique",
   author: "Enrique Soriano",
 };
 
