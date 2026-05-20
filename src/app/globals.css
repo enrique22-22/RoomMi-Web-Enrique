@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-[#faf8ff] text-room-900 antialiased;
+  }
+
+  ::selection {
+    @apply bg-room-500/25 text-room-900;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-room-600 via-room-500 to-mint-500 bg-clip-text text-transparent;
+  }
+
+  .bg-mesh {
+    background-image:
+      radial-gradient(at 20% 20%, rgba(124, 58, 237, 0.12) 0, transparent 50%),
+      radial-gradient(at 80% 10%, rgba(16, 185, 129, 0.1) 0, transparent 45%),
+      radial-gradient(at 60% 80%, rgba(249, 115, 22, 0.08) 0, transparent 40%);
+  }
+}
